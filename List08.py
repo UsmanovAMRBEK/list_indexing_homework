@@ -6,4 +6,34 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    index=0
+    if list1[index] == 1:
+        list1[index] = True
+    else:
+        list1[index] = False
+    index+=1
+
+    if list1[index] == 1:
+        list1[index] = True
+    else:
+        list1[index] = False
+    index+=1
+
+    if list1[index] == 1:
+        list1[index] = True
+    else:
+        list1[index] = False
+    index+=1
+
+    if list1[index] == 1:
+        list1[index] = True
+    else:
+        list1[index] = False
+    index+=1
+
+    if list1[index] == 1:
+        list1[index] = True
+    else:
+        list1[index] = False
+    index+=1
+    return list1

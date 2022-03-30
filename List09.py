@@ -6,5 +6,4 @@ def main(list1):
     Returns:
         bool: return answer
     """
-
-    return list1[0] == list1[1] == list1[2] == list1[3] == list1[4]
+    return list1[0]==list1[1] and list1[1]==list1[2] and list1[2]==list1[3] and list1[3]==list1[4]
